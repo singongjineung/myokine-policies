@@ -33,17 +33,18 @@
         }
 
         .logo {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             margin: 0 auto 30px;
-            background: linear-gradient(135deg, #FF8C00, #FFA500);
             border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            color: white;
-            font-weight: bold;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         h1 {
@@ -118,16 +119,17 @@
             }
 
             .logo {
-                width: 80px;
-                height: 80px;
-                font-size: 36px;
+                width: 100px;
+                height: 100px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">M</div>
+        <div class="logo">
+            <img src="app-logo.png" alt="Myokine Logo">
+        </div>
         <h1>Myokine</h1>
         <p class="subtitle">홈 피트니스 트레이닝 앱</p>
 
