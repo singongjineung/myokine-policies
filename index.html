@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myokine - 앱 정책</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Malgun Gothic', '맑은 고딕', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #FF8C00 0%, #FFA500 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #FF8C00, #FFA500);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #FF8C00;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: #333;
+            margin: 30px 0 20px;
+            font-size: 1.3em;
+        }
+
+        .policy-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .policy-link {
+            display: block;
+            padding: 20px 30px;
+            background-color: #FF8C00;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 140, 0, 0.3);
+        }
+
+        .policy-link:hover {
+            background-color: #E67E00;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+        }
+
+        .policy-link:active {
+            transform: translateY(0);
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .contact {
+            margin-top: 15px;
+            color: #666;
+        }
+
+        .contact a {
+            color: #FF8C00;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">M</div>
+        <h1>Myokine</h1>
+        <p class="subtitle">홈 피트니스 트레이닝 앱</p>
+
+        <h2>📄 앱 정책 문서</h2>
+
+        <div class="policy-links">
+            <a href="privacy-policy.html" class="policy-link">
+                <span class="icon">🔒</span>개인정보 처리방침
+            </a>
+            <a href="terms-of-service.html" class="policy-link">
+                <span class="icon">📋</span>이용약관
+            </a>
+        </div>
+
+        <div class="footer">
+            <p><strong>HASEGI Inc.</strong></p>
+            <p class="contact">
+                문의: <a href="mailto:hasegi.project@gmail.com">hasegi.project@gmail.com</a>
+            </p>
+            <p style="margin-top: 20px; color: #999; font-size: 0.85em;">
+                최종 업데이트: 2025년 1월 24일
+            </p>
+        </div>
+    </div>
+</body>
+</html>
